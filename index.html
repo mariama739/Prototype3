@@ -11,37 +11,44 @@
 <body>
 <div class="section-global">
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top ">
-    <div class="container">
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
         <img src="image/navbar-logo.svg" alt="logo" class="logo">
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      </ul>
-
-      <ul class="navbar-nav d-flex flex-row me-1 fs-5 pt-3 hov ">
-        <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#services">SERVICES</a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#about">ABOUT</a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#team">TEAM</a>
-        </li>
-        <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#contact">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Navbar -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto navbar-nav fs-5 ">         
+              <li class="nav-item mtop">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item mt-4">
+                <a class="nav-link" href="#PORTFOLIO">PORTFOLIO</a>
+              </li>
+              <li class="nav-item mt-4">
+                <a class="nav-link" href="#ABOUT">ABOUT</a>
+              </li>
+              <li class="nav-item mt-4">
+                <a class="nav-link" href="#TEAM">TEAM</a>
+              </li>
+              <li class="nav-item mt-4">
+                <a class="nav-link" href="#TEAM">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 
 <section class=" text-white text-center centrer mb-5 ">
     <h1 class="fst-italic">Welcome To Our Studio!</h1>
@@ -251,59 +258,69 @@
             </div>
         </section>
 
-<section class="pb-5">   
-        <div class="text-center" id="about">
-            <h2 class="section-heading text-uppercase pt-5 fs-1">ABOUT</h2>
-            <p class="section-subheading text-muted fs-5 fst-italic pb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-        <div class="container py-5">
-            <div class="main-timeline">
-            <div class="timeline left">
-                <div class="card text-end me-5">
-                <div class="card-body p-4">
-                    <h3>2009-2011</h3>
-                    <h3>Our Humble Beginnings</h3>
-                    <p class="mb-0 lorem">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, recusandae sit vero unde, sed, <br> incidunt et ea quo dolore laudantium <br> consectetur!</p>
+<section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase pt-5 fs-1">ABOUT</h2>
+                    <p class="section-subheading text-muted fs-5 fst-italic pb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/round1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/round 2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/round 3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="image/round 4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2020</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4 class="pt-4">
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="timeline1 right">
-                <div class="card gauche">
-                <div class="card-body p-4">
-                    <h3>March 2011</h3>
-                    <h3>An Agency is Born</h3>
-                    <p class="mb-0 lorem">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, recusandae sit vero unde, sed, <br> incidunt et ea quo dolore laudantium <br> consectetur!</p>
-                </div>
-                </div>
-            </div>
-            <div class="timeline2 left">
-                <div class="card text-end me-5">
-                <div class="card-body p-4">
-                    <h3>December 2015</h3>
-                    <h3>Transition to Full Service</h3>
-                    <p class="mb-0 lorem">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, recusandae sit vero unde, sed, <br> incidunt et ea quo dolore laudantium <br> consectetur!</p>
-                </div>
-                </div>
-            </div>
-            <div class="timeline3 right">
-                <div class="card gauche">
-                <div class="card-body p-4">
-                    <h3>July 2020</h3>
-                    <h3>Phase Two Expansion</h3>
-                    <p class="mb-0 lorem">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, recusandae sit vero unde, sed, <br> incidunt et ea quo dolore laudantium <br> consectetur!</p>
-                </div>
-                </div>
-            </div>
-            <div class="timeline4 left">
-                <div class="card text-end me-5 ">
-                <div class="card-body p-4">
-                    <!-- <h3 class="test">Be Part <br>Of Our <br>Story!</h3> -->
-                </div>
-                </div>
-            </div>           
-        </div>
-    </div>
-</section>
+        </section>
+        <!-- Team-->
+        
 
         <section class="page-section bg-light pb-5 " id="team">
             <div class="container">
@@ -313,8 +330,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle w-50" src="image/1 (2).jpg" alt="..." />
+                        <div class="team-member text-center pb-5">
+                            <img class="mx-auto rounded-circle " src="image/1 (2).jpg" alt="..." />
                             <h4 class="pt-3 ">Parveen Anand</h4>
                             <p class="text-muted pb-2 ">Lead Designer</p>
                             <a class="btn btn-dark btn-social mx-2 rounded-5 " href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -323,8 +340,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle w-50" src="image/2 (2).jpg" alt="..." />
+                        <div class="team-member text-center pb-5">
+                            <img class="mx-auto rounded-circle " src="image/2 (2).jpg" alt="..." />
                             <h4 class="pt-3">Diana Petersen</h4>
                             <p class="text-muted pb-2">Lead Marketer</p>
                             <a class="btn btn-dark btn-social mx-2 rounded-5 " href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
@@ -334,7 +351,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle w-50" src="image/3 (2).jpg" alt="..." />
+                            <img class="mx-auto rounded-circle " src="image/3 (2).jpg" alt="..." />
                             <h4 class="pt-3">Larry Parker</h4>
                             <p class="text-muted pb-2 ">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2 rounded-5 " href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
